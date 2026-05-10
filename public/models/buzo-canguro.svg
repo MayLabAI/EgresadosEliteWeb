@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 340" fill="none">
+  <!-- Cuerpo principal del buzo -->
+  <g id="zone-body">
+    <!-- Torso -->
+    <rect id="torso" x="70" y="110" width="160" height="160" rx="4" fill="#cccccc"/>
+    <!-- Bolsillo canguro -->
+    <path id="pocket" d="M100 220 Q100 270 150 270 Q200 270 200 220 L190 220 Q190 260 150 260 Q110 260 110 220 Z" fill="#cccccc"/>
+    <!-- Borde inferior -->
+    <rect id="hem" x="70" y="260" width="160" height="10" rx="2" fill="#cccccc"/>
+  </g>
+
+  <!-- Mangas -->
+  <g id="zone-sleeves">
+    <!-- Manga izquierda -->
+    <path id="sleeve-left" d="M70 120 L30 145 L30 230 L50 230 L70 200 Z" fill="#aaaaaa"/>
+    <!-- Puño izquierdo -->
+    <rect id="cuff-left" x="28" y="225" width="24" height="10" rx="2" fill="#aaaaaa"/>
+    <!-- Manga derecha -->
+    <path id="sleeve-right" d="M230 120 L270 145 L270 230 L250 230 L230 200 Z" fill="#aaaaaa"/>
+    <!-- Puño derecho -->
+    <rect id="cuff-right" x="248" y="225" width="24" height="10" rx="2" fill="#aaaaaa"/>
+    <!-- Rayas de manga izquierda -->
+    <line x1="38" y1="175" x2="68" y2="167" stroke="#00000022" stroke-width="3"/>
+    <line x1="38" y1="185" x2="68" y2="178" stroke="#00000022" stroke-width="3"/>
+    <!-- Rayas de manga derecha -->
+    <line x1="262" y1="175" x2="232" y2="167" stroke="#00000022" stroke-width="3"/>
+    <line x1="262" y1="185" x2="232" y2="178" stroke="#00000022" stroke-width="3"/>
+  </g>
+
+  <!-- Capucha -->
+  <g id="zone-hood">
+    <path id="hood" d="M85 115 Q85 50 150 45 Q215 50 215 115 Q195 108 150 108 Q105 108 85 115 Z" fill="#bbbbbb"/>
+    <!-- Borde interno de la capucha -->
+    <path id="hood-inner" d="M100 112 Q100 65 150 60 Q200 65 200 112 Q180 106 150 106 Q120 106 100 112 Z" fill="#cccccc" fill-opacity="0.3"/>
+    <!-- Cordón -->
+    <line x1="130" y1="112" x2="120" y2="140" stroke="#00000040" stroke-width="2"/>
+    <line x1="170" y1="112" x2="180" y2="140" stroke="#00000040" stroke-width="2"/>
+    <circle cx="119" cy="141" r="4" fill="#00000050"/>
+    <circle cx="181" cy="141" r="4" fill="#00000050"/>
+  </g>
+
+  <!-- Detalles y costuras -->
+  <g id="zone-details" stroke="#00000030" stroke-width="1.5" fill="none">
+    <!-- Costuras del cuerpo -->
+    <line x1="150" y1="110" x2="150" y2="270" stroke-dasharray="4 4"/>
+    <!-- Costuras del bolsillo -->
+    <path d="M105 220 Q105 265 150 265 Q195 265 195 220" stroke-dasharray="3 3"/>
+    <!-- Costura lateral izquierda -->
+    <line x1="72" y1="120" x2="72" y2="268"/>
+    <!-- Costura lateral derecha -->
+    <line x1="228" y1="120" x2="228" y2="268"/>
+  </g>
+
+  <!-- Zona de texto frontal (placeholder) -->
+  <text id="text-front" x="150" y="170" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#00000060" font-weight="600">TEXTO</text>
+  <!-- Zona de texto secundario (año/número) -->
+  <text id="text-secondary" x="150" y="250" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#00000040">2025</text>
+</svg>

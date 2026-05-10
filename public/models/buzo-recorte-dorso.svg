@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 340" fill="none">
+  <!-- Cuerpo trasero -->
+  <g id="zone-body">
+    <rect id="torso-back" x="70" y="110" width="160" height="160" rx="4" fill="#cccccc"/>
+    <rect id="hem-back" x="70" y="260" width="160" height="10" rx="2" fill="#cccccc"/>
+    <!-- Costura central trasera -->
+    <line x1="150" y1="110" x2="150" y2="270" stroke="#00000015" stroke-width="1.5" stroke-dasharray="5 4"/>
+  </g>
+
+  <!-- Mangas traseras -->
+  <g id="zone-sleeves">
+    <path id="sleeve-left-back" d="M70 120 L30 145 L30 230 L50 230 L70 200 Z" fill="#aaaaaa"/>
+    <rect id="cuff-left-back" x="28" y="225" width="24" height="10" rx="2" fill="#aaaaaa"/>
+    <path id="sleeve-right-back" d="M230 120 L270 145 L270 230 L250 230 L230 200 Z" fill="#aaaaaa"/>
+    <rect id="cuff-right-back" x="248" y="225" width="24" height="10" rx="2" fill="#aaaaaa"/>
+    <line x1="38" y1="175" x2="68" y2="167" stroke="#00000022" stroke-width="3"/>
+    <line x1="38" y1="185" x2="68" y2="178" stroke="#00000022" stroke-width="3"/>
+    <line x1="262" y1="175" x2="232" y2="167" stroke="#00000022" stroke-width="3"/>
+    <line x1="262" y1="185" x2="232" y2="178" stroke="#00000022" stroke-width="3"/>
+  </g>
+
+  <!-- Capucha trasera -->
+  <g id="zone-hood">
+    <path id="hood-back" d="M85 115 Q85 50 150 45 Q215 50 215 115 Q195 108 150 108 Q105 108 85 115 Z" fill="#bbbbbb"/>
+    <!-- Costura central capucha -->
+    <line x1="150" y1="48" x2="150" y2="113" stroke="#00000030" stroke-width="2" stroke-dasharray="4 3"/>
+  </g>
+
+  <!-- Detalles traseros -->
+  <g id="zone-details" stroke="#00000025" stroke-width="1.5" fill="none">
+    <line x1="72" y1="120" x2="72" y2="268"/>
+    <line x1="228" y1="120" x2="228" y2="268"/>
+    <!-- Costuras de hombros -->
+    <line x1="88" y1="113" x2="70" y2="122"/>
+    <line x1="212" y1="113" x2="230" y2="122"/>
+  </g>
+</svg>

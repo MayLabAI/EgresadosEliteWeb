@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 340" fill="none">
+  <!-- Cuerpo principal -->
+  <g id="zone-body">
+    <!-- Panel izquierdo -->
+    <path id="body-left" d="M70 110 L145 110 L145 270 L70 270 Z" fill="#cccccc"/>
+    <!-- Panel derecho -->
+    <path id="body-right" d="M155 110 L230 110 L230 270 L155 270 Z" fill="#cccccc"/>
+    <!-- Borde inferior -->
+    <rect id="hem" x="70" y="260" width="160" height="10" rx="2" fill="#cccccc"/>
+  </g>
+
+  <!-- Mangas -->
+  <g id="zone-sleeves">
+    <!-- Manga izquierda -->
+    <path id="sleeve-left" d="M70 120 L30 145 L30 230 L50 230 L70 200 Z" fill="#aaaaaa"/>
+    <rect id="cuff-left" x="28" y="225" width="24" height="10" rx="2" fill="#aaaaaa"/>
+    <!-- Manga derecha -->
+    <path id="sleeve-right" d="M230 120 L270 145 L270 230 L250 230 L230 200 Z" fill="#aaaaaa"/>
+    <rect id="cuff-right" x="248" y="225" width="24" height="10" rx="2" fill="#aaaaaa"/>
+    <!-- Rayas -->
+    <line x1="38" y1="175" x2="68" y2="167" stroke="#00000022" stroke-width="3"/>
+    <line x1="38" y1="185" x2="68" y2="178" stroke="#00000022" stroke-width="3"/>
+    <line x1="262" y1="175" x2="232" y2="167" stroke="#00000022" stroke-width="3"/>
+    <line x1="262" y1="185" x2="232" y2="178" stroke="#00000022" stroke-width="3"/>
+  </g>
+
+  <!-- Capucha -->
+  <g id="zone-hood">
+    <path id="hood" d="M85 115 Q85 50 150 45 Q215 50 215 115 Q195 108 150 108 Q105 108 85 115 Z" fill="#bbbbbb"/>
+    <path id="hood-inner" d="M100 112 Q100 65 150 60 Q200 65 200 112 Q180 106 150 106 Q120 106 100 112 Z" fill="#cccccc" fill-opacity="0.3"/>
+  </g>
+
+  <!-- Cierre central -->
+  <g id="zone-details">
+    <!-- Línea del cierre -->
+    <rect x="148" y="110" width="4" height="155" fill="#555555" rx="2"/>
+    <!-- Dientes del cierre -->
+    <g fill="#777777">
+      <rect x="143" y="115" width="5" height="3" rx="1"/>
+      <rect x="152" y="115" width="5" height="3" rx="1"/>
+      <rect x="143" y="123" width="5" height="3" rx="1"/>
+      <rect x="152" y="123" width="5" height="3" rx="1"/>
+      <rect x="143" y="131" width="5" height="3" rx="1"/>
+      <rect x="152" y="131" width="5" height="3" rx="1"/>
+      <rect x="143" y="139" width="5" height="3" rx="1"/>
+      <rect x="152" y="139" width="5" height="3" rx="1"/>
+    </g>
+    <!-- Costuras -->
+    <line x1="72" y1="120" x2="72" y2="268" stroke="#00000025" stroke-width="1.5"/>
+    <line x1="228" y1="120" x2="228" y2="268" stroke="#00000025" stroke-width="1.5"/>
+    <!-- Bolsillos -->
+    <rect x="80" y="210" width="55" height="40" rx="4" stroke="#00000030" stroke-width="1.5" fill="none"/>
+    <rect x="165" y="210" width="55" height="40" rx="4" stroke="#00000030" stroke-width="1.5" fill="none"/>
+  </g>
+
+  <text id="text-front" x="110" y="175" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#00000060" font-weight="600">TEXTO</text>
+  <text id="text-secondary" x="190" y="175" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#00000040">2025</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="none">
+  <!-- Cuerpo -->
+  <g id="zone-body">
+    <path id="torso-back" d="M85 100 L85 260 L215 260 L215 100 Q175 95 150 95 Q125 95 85 100 Z" fill="#cccccc"/>
+    <rect id="hem-back" x="85" y="252" width="130" height="10" rx="2" fill="#cccccc"/>
+    <line x1="150" y1="100" x2="150" y2="260" stroke="#00000015" stroke-width="1.5" stroke-dasharray="5 4"/>
+  </g>
+
+  <!-- Mangas -->
+  <g id="zone-sleeves">
+    <path id="sleeve-left-back" d="M85 100 Q60 95 40 110 L40 165 L75 160 L85 140 Z" fill="#aaaaaa"/>
+    <rect id="cuff-left-back" x="38" y="158" width="38" height="9" rx="2" fill="#aaaaaa"/>
+    <path id="sleeve-right-back" d="M215 100 Q240 95 260 110 L260 165 L225 160 L215 140 Z" fill="#aaaaaa"/>
+    <rect id="cuff-right-back" x="224" y="158" width="38" height="9" rx="2" fill="#aaaaaa"/>
+  </g>
+
+  <!-- Cuello trasero -->
+  <g id="zone-hood">
+    <ellipse id="neckline-back" cx="150" cy="95" rx="28" ry="10" fill="#bbbbbb"/>
+  </g>
+
+  <!-- Detalles -->
+  <g id="zone-details" stroke="#00000025" stroke-width="1.5" fill="none">
+    <line x1="87" y1="105" x2="87" y2="258"/>
+    <line x1="213" y1="105" x2="213" y2="258"/>
+  </g>
+</svg>
